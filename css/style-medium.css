@@ -108,6 +108,7 @@
 		position: absolute;
 		top: 0;
 		width: 100%;
+		display:none;
 	}
 
 		#navButton .toggle:before {
@@ -117,6 +118,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			display:none;
 		}
 
 		#navButton .toggle:before {
@@ -133,12 +135,14 @@
 			text-align: center;
 			top: 0.5em;
 			width: 3.5em;
+			display:none;
 		}
 
 	#navPanel {
 		background-color: #fff;
 		box-shadow: 0.5em 0 2em 0 rgba(0, 0, 0, 0.1);
 		padding: 0.5em 1.5em;
+		display:none;
 	}
 
 		#navPanel .link {
@@ -149,6 +153,7 @@
 			height: 3em;
 			line-height: 3em;
 			text-decoration: none;
+			display:none;
 		}
 
 			#navPanel .link:first-child {
